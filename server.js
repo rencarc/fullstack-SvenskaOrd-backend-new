@@ -24,5 +24,5 @@ app.get("/", (req, res) => {
 // API 路由
 app.use("/api/svenska", svenskaOrdRoutes);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => console.log(`Listening on: ${PORT}`));
